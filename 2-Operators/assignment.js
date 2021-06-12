@@ -1,0 +1,14 @@
+var a = 10;
+var b = 5;
+var c = b;
+console.log(c);
+c += a;
+console.log(c);
+c -= b;
+console.log(c);
+c *= b;
+console.log(c);
+c /= b;
+console.log(c);
+c %= b;
+console.log(c);

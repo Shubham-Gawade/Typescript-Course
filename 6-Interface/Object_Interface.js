@@ -1,0 +1,24 @@
+//Interface works at complie time only
+//The concept of interface does not exist in javascript
+//Object literal name , type and number of literals cannot be changed
+//We can create multiple objects using same interface
+var product1 = {
+    id: 123,
+    name: "IPhone",
+    description: "8gb_Ram",
+    price: 100000,
+    display: function () {
+        console.log(this.id + " " + this.name + " " + this.description + " " + this.price);
+    }
+};
+console.log(product1.display());
+var product2 = {
+    id: 124,
+    name: "Samsung",
+    description: "8gb_Ram",
+    //price is optional
+    display: function () {
+        console.log(this.id + " " + this.name + " " + this.description);
+    }
+};
+console.log(product2.display());
